@@ -2,7 +2,7 @@
 
 **蒸馏替代训练 · 相位同步替代矩阵乘法 · 30MB 替代 140GB**
 
-[![公共领域](https://img.shields.io/badge/license-Public%20Domain-brightgreen)](LICENSE)
+[![公共领域](https://img.shields.io/badge/license-NonCommercial%20%7C%20Public%20Research-brightgreen)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](aembr_demo.py)
 [![Topics](https://img.shields.io/badge/topics-Kuramoto%20%7C%20Edge%20AI%20%7C%20Transformer%20Alternative-orange)](#)
 
@@ -132,7 +132,17 @@ BERT嵌入(768维) → 余弦相似度 → J矩阵(稀疏·top-25)
 
 ## License
 
-**Public Domain.** Use freely. Modify. Distribute. Commercialize. No attribution required (but appreciated).
+**非商业自由使用 · 商业需授权** — 详见 [LICENSE](LICENSE)
+
+---
+
+## 🔮
+
+这份代码展示了一条路。但不是唯一的路。
+
+拓扑不一定要从 BERT 的共现统计来。
+
+如果你在读这句话时想到了"那还可以从什么来"——[CONTRIBUTING.md](CONTRIBUTING.md) 的末尾可能有你想要的答案。
 
 ---
 
