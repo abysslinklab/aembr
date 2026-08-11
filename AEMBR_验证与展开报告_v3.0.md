@@ -98,11 +98,13 @@ BERT:   20,000 边 ÷ 4/6 精准 = 单边效率 0.02%
 
 ## 6. 资源效率（更新）
 
-| | Transformer 70B | AEMBR 800 | AEMBR 15K |
+| | Transformer 嵌入层 | AEMBR 800 | AEMBR 15K |
 |---|---|---|---|
-| 内存 | 140 GB | 1.5 MB | 30 MB |
-| FLOPs | 18T | 24M (40步) | 340M (150步) |
+| 内存 | ~10 GB | 1.5 MB | 30 MB |
+| FLOPs | 18T (full) | 24M (40步) | 340M (150步) |
 | 可部署 | GPU数据中心 | 任意CPU | 手机CPU |
+
+> AEMBR 捕捉语义相似度拓扑，对应 Transformer 的词嵌入语义功能——非 140GB 的全部权重。
 
 ---
 

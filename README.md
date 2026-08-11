@@ -1,6 +1,6 @@
 # AEMBR — 耦合振荡器推理引擎
 
-**蒸馏替代训练 · 相位同步替代矩阵乘法 · 30MB 替代 140GB**
+**蒸馏替代训练 · 相位同步替代矩阵乘法**
 
 [![公共领域](https://img.shields.io/badge/license-NonCommercial%20%7C%20Public%20Research-brightgreen)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](aembr_demo.py)
@@ -19,10 +19,14 @@
 | | Transformer | AEMBR |
 |---|---|---|
 | **Inference** | Matrix multiply O(N²) | Phase sync O(E) |
-| **Memory** (70B eq.) | 140 GB | ~30 MB |
+| **Memory** (semantic layer) | ~10 GB (embedding) | ~30 MB (topology) |
 | **FLOPs** | 18 Trillion | 340 Million |
 | **Training** | GPU cluster · $2-5M | Distill · 15 sec · CPU |
 | **Deployment** | Datacenter | Phone · MCU · Any CPU |
+
+> AEMBR captures semantic similarity at 1/300 the memory of a Transformer's embedding layer.
+> Full-scale inference at 15K nodes requires ~30 MB — practical for any CPU.
+> AEMBR does NOT replicate a Transformer's full 140 GB of weights (syntax, fact memory, multi-lingual). It focuses on the semantic coupling layer.
 
 Knowledge already exists in language structure. You don't need backpropagation to extract it — just distill the topology and let physics converge.
 
