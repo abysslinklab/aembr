@@ -1,27 +1,20 @@
 # Large data files
 *.json
 
-# Internal docs
+# Python cache
+__pycache__/
+*.pyc
+
+# Local-only scripts
+aembr_v0.*.py
+aembr_*.py
+!aembr_demo.py
+
+# Internal docs (not published)
 AEMBR_专利*.md
 AEMBR_释放*.md
 AEMBR_白皮书*.md
 AEMBR_路书*.md
-AEMBR_理论*.md
-AEMBR_蒸馏*.md
-AEMBR_拓扑*.md
 AEMBR_70B*.md
 工作纪要*.md
 BASELINE*.md
-
-# Old reports
-AEMBR_原型验证报告_v0.2.md
-AEMBR_验证与展开报告_v1.0.md
-AEMBR_验证与展开报告_v2.0.md
-
-# Failed attempts
-aembr_v0.6_distill.py
-aembr_v0.6b_distill.py
-
-# Python cache
-__pycache__/
-*.pyc
