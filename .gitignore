@@ -1,0 +1,20 @@
+# Data files - too large for git
+*.json
+
+# Internal docs
+AEMBR_专利体系设计书*.md
+AEMBR_释放节奏设计书*.md
+工作纪要*.md
+
+# Old reports
+AEMBR_原型验证报告_v0.2.md
+AEMBR_验证与展开报告_v1.0.md
+AEMBR_验证与展开报告_v2.0.md
+
+# Failed attempts
+aembr_v0.6_distill.py
+aembr_v0.6b_distill.py
+
+# Python cache
+__pycache__/
+*.pyc
