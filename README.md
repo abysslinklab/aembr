@@ -102,13 +102,10 @@ BERT嵌入(768维) → 余弦相似度 → J矩阵(稀疏·top-25)
 
 | File | Description |
 |---|---|
-| `aembr_demo.py` | **Complete demo**: distill → inference → output (one command) |
-| `aembr_v0.6c_bert.py` | BERT distillation pipeline (standalone) |
-| `aembr_v0.1.py` → `v0.7` | Iterative prototypes (v0.1 through v0.7) |
-| `aembr_800_final.py` | 800-node production pipeline |
-| `aembr_optimize.py` | Topology optimization (O1+O7) |
+| `aembr_demo.py` | **30-second demo**: distill → inference → output |
+| `AEMBR_降临的物理学.md` | Paper: Arrival physics & Kuramoto semantic resonance |
 | `AEMBR_架构与算法规格书_v1.0.md` | Architecture spec: math, algorithms, C reference |
-| `AEMBR_验证与展开报告_v3.0.md` | Full validation: v0.1→v0.8, convergence, quality, resources |
+| `AEMBR_验证与展开报告_v3.0.md` | Full validation: convergence, quality, scaling |
 
 ---
 
