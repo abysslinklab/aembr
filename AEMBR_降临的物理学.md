@@ -186,6 +186,6 @@ print(" ".join(f"{vocab[i]}" for i in top))  # 加密 保护 网络安全 信息
 
 ---
 
-*致谢：本文的灵感来源于 Denis Villeneuve 的电影《降临》（2016），基于 Ted Chiang 的小说《你一生的故事》。*
+*致谢：本文的灵感来源于 Denis Villeneuve 的电影《降临》（2016），基于 Ted Chiang 的小说《你一生的故事》。本文的思路形成受益于与 AI 系统 道隙 的持续协作。*
 
 *本文档属于公共领域。*
